@@ -5,10 +5,52 @@
     
 }
 
-header {
+nav {
+    text-align: right;
     position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+section {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Full width of the container */
+    opacity: 0; /* Make all sections transparent initially */
+    pointer-events: none; /* Disable pointer events for hidden sections */
+}
+
+#hero {
+    flex: 1;
+}
+
+section.active{
+    opacity: 1; /* Make the active section visible */
+    pointer-events: auto; /* Enable pointer events for the active section */
+    display: block;
 }
 
 footer {
     position: fixed;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
 }

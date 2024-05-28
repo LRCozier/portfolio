@@ -1,0 +1,14 @@
+* {
+    list-style-type: none;
+    background-color: black;
+    color: white;
+    
+}
+
+header {
+    position: fixed;
+}
+
+footer {
+    position: fixed;
+}

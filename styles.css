@@ -30,24 +30,10 @@ nav ul li a {
     text-decoration: none;
 }
 
-section {
-    /*display: hidden;*/
-    display: block;
-    top: 0;
-    left: 0;
-    width: 100%; /* Full width of the container */
-    opacity: 0; /* Make all sections transparent initially */
-    pointer-events: none; /* Disable pointer events for hidden sections */
-}
-
-#hero {
-    flex: 1;
-}
-
-section.active{
-    opacity: 1; /* Make the active section visible */
-    pointer-events: auto; /* Enable pointer events for the active section */
-    /*display: block;*/
+.section-title {
+    text-align: center;
+    align-items: center;
+    font-size: 2rem;
 }
 
 footer {

@@ -13,18 +13,18 @@
         <header id="header">
             <nav>
                 <ul>
-                    <li><a href="#hero">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#hero" onclick=activeSectionSelector()>Home</a></li>
+                    <li><a href="#about" onclick=activeSectionSelector()>About</a></li>
+                    <li><a href="#projects" onclick=activeSectionSelector()>Projects</a></li>
+                    <li><a href="#contact" onclick=activeSectionSelector()>Contact</a></li>
                 </ul>
             </nav>
         </header>
-        <section id="hero" class="active">
+        <section id="hero">
             <h1 id="maintitle">Luke Rudderham-Cozier</h1>
             <h2 class="section-title">Front End Developer</h2>
         </section>
-        <section id="about" class="">
+        <section id="about">
             <h3 class="section-title">About Me</h3>
             <p>Amidst the upheaval of the COVID-19 pandemic in 2020, I stumbled upon a newfound passion that has since become the cornerstone
                  of my journey: coding. As the world slowed down, I delved into the intricacies of programming, captivated by its limitless 
@@ -47,10 +47,14 @@
                 <img href="images/skills/Python.png" alt="Python" />               
             </div>
         </section>
-        <section id="projects" class="">
+        <section id="projects">
+            <div class="project-container">
+                <div class="project-preview"></div>
+                <div class="project-description"></div>
+            </div>
 
         </section>
-        <section id="contact" class="">
+        <section id="contact">
             <h5 class="portfolio-subheading">Contact</h5>
                 <form id="contact-form">
                     <div class="form-group">
@@ -71,8 +75,8 @@
                 </form>
         </section>
         <footer id="footer">
-            <p id="copywright">Luke Rudderham-Cozier &copy; 2024</p>
             <ul class="social-icons">
+                <li><p id="copywright">Luke Rudderham-Cozier &copy; 2024</p></li>
                 <li><a href="https://github.com/LRCozier" class="social-icon"> <i class="fa fa-github"></i></a></li>
                 <li><a href="https://www.linkedin.com/in/luke-rudderham-cozier-30205343/" class="social-icon"> <i class="fa fa-linkedin"></i></a></li>
             </ul>
